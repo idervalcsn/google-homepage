@@ -10,13 +10,17 @@ html, body{
 
 }
 
-#navbar ul{
-  position: absolute;
+#navbar-geral ul{
   list-style-type: none;
   margin: 0;
   padding: 0;
-  right: 10px;
 }
-#navbar ul li{
-    float: left;
-  }
+#navbar-geral li{
+  display: inline;
+}
+
+#navbar-right ul{
+  position: absolute;
+  right: 3px;
+}
+
