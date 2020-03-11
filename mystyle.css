@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+}
+
+#logo{    
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+
+}
+
+#navbar ul{
+  position: absolute;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  right: 10px;
+}
+#navbar ul li{
+    float: left;
+  }
