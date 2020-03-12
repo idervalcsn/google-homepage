@@ -1,5 +1,11 @@
 html, body{
     height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main{
+  width: 100%;
 }
 
 #logo{    
@@ -10,17 +16,85 @@ html, body{
 
 }
 
+#busca{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+
+}
+
+
+#navbar-geral{
+  position: relative;
+  height: 60px;
+  margin: 0;
+  padding: 0;
+}
 #navbar-geral ul{
+  position: absolute;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 #navbar-geral li{
   display: inline;
+  padding: 10px;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+}
+a:hover{
+  text-decoration: underline;
 }
 
+
 #navbar-right ul{
-  position: absolute;
+  margin: 10px 10px auto auto;
   right: 3px;
 }
+
+
+#navbar-left ul{
+  margin: 10px auto auto 10px;
+  left: 3px;
+}
+
+
+#footer-bar{
+  position: absolute;
+  height: 60px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  bottom: 0px;
+  background-color: rgb(242,242,242);
+  border-top: 1px solid;
+  border-top-color: rgb(228, 228, 228);
+
+}
+#footer-bar ul{
+  position: absolute;
+  list-style-type: none;
+  bottom: 0px;  
+  padding: 0;
+}
+#footer-bar li{
+  display: inline;
+  padding-left: 15px;
+  padding-right: 3px;
+}
+
+#footer-bar-right ul{
+  right: 3px;
+}
+
+#footer-bar-left ul{
+  left: 3px;
+}
+
+
 
