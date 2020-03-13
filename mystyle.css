@@ -4,97 +4,46 @@ html, body{
     padding: 0;
 }
 
-main{
-  width: 100%;
+/*Estilo geral tanto da navbar header quanto footer*/
+.navbar{
+  display: flex;
+  justify-content: space-between;
 }
-
-#logo{    
-    position: absolute;
-    top: 30%;
-    left: 50%;
-    transform: translate(-50%,-30%);
-
+.navbar#footer{
+  background-color:rgba(242, 242, 242, 0.3);
+  border: 1px solid;
+  border-color: rgba(242, 242, 242, 0.8);
+  border-radius: 3px;
 }
-
-#busca{
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-40%, -50%);
-
-}
-
-
-#navbar-geral{
-  position: relative;
-  height: 60px;
-  margin: 0;
-  padding: 0;
-}
-#navbar-geral ul{
-  position: absolute;
+.navbar ul{
   list-style-type: none;
-  margin: 0;
+  margin: 26px;  
   padding: 0;
 }
-#navbar-geral li{
+.navbar ul li{
   display: inline;
-  padding: 10px;
+  padding: 13px;
 }
-a{
+.navbar ul li a{
+  font-size: 15px;
   text-decoration: none;
-  color: #000000;
-  font-family: arial,sans-serif;
-  font-size: 13px;
+  color: black;
 }
-a:hover{
+.navbar ul li a:hover{
   text-decoration: underline;
 }
 
-
-#navbar-right ul{
-  margin: 10px 10px auto auto;
-  right: 3px;
+.main-content{
+  height: calc(100% - (72.4px + 70.4px));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-
-
-#navbar-left ul{
-  margin: 10px auto auto 10px;
-  left: 3px;
-}
-
-
-#footer-bar{
-  position: absolute;
-  height: 60px;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  bottom: 0px;
-  background-color: rgb(242,242,242);
-  border-top: 1px solid;
-  border-top-color: rgb(228, 228, 228);
-
-}
-#footer-bar ul{
-  position: absolute;
-  list-style-type: none;
-  bottom: 0px;  
-  padding: 0;
-}
-#footer-bar li{
-  display: inline;
-  padding-left: 15px;
-  padding-right: 3px;
-}
-
-#footer-bar-right ul{
-  right: 3px;
-}
-
-#footer-bar-left ul{
-  left: 3px;
-}
-
-
+ 
+.center-page{
+  
+  margin-bottom: 271px;
+  
+} 
 
