@@ -17,6 +17,9 @@ html, body {
   border: 1px solid;
   border-color: rgba(242, 242, 242, 1);
   border-radius: 3px;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
 }
 
 
@@ -65,7 +68,6 @@ html, body {
 }
 
 .main-content {
-  height: calc(100% - (48.4px + 50.4px));
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -74,7 +76,7 @@ html, body {
 }
 
 .center-page {
-  margin-bottom: 268px;
+  margin-top: 10%;
   display: flex;
   flex-direction: column;
   justify-content: center;
